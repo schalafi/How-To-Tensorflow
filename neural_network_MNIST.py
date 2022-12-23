@@ -54,7 +54,7 @@ print("Model summary: ")
 model.summary()
 
 #Change to activate/deactivate training
-TRAIN = False
+TRAIN = True
 if TRAIN:
     #Train the model.
     print("Training ...")
